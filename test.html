@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Page 1</title>
+
+<link rel="stylesheet" type="text/css" href="CSS/specs.css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="featuredimagezoomer.js"></script>
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+
+	$('#image1').addimagezoom({
+		zoomrange: [3, 10],
+		magnifiersize: [300,300],
+		magnifierpos: 'left',
+		cursorshade: true,
+		largeimage: 'CSS/images/lingerie/sets/bl_hipster.png' //<-- No comma after last option!
+	})
+	
+	$('#image2').addimagezoom({
+		zoomrange: [5, 5],
+		magnifiersize: [400,400],
+		magnifierpos: 'left',
+		cursorshade: true,
+		cursorshadecolor: 'pink',
+		cursorshadeopacity: 0.3,
+		cursorshadeborder: '1px solid red',
+		largeimage: '#' //<-- No comma after last option!
+	})
+
+	$('#image3').addimagezoom()
+
+})
+
+</script>
+
+</head>
+
+<body class="body">
+
+<div id="link"><p><a href="sets.html">Sets</a></p></div>
+
+<div id="spacer">
+
+<div id="img_container"><img id="image1" border="1px solid gray" src="CSS/images/lingerie/sets/bl_hipster.png" style="width:230px; height:390px" />
+</div>
+  
+</div>
+
+<div class="title"><h2>Patterned Bra w/ Hipster</h2></div>
+
+<div class="price"><p>&#36; 8&#44;000&#46;00</p></div>
+
+<div class="info"><p>stripe bra<br />slim fit hipster<br />70&#37; cotton<br />30&#37; nylon<br />made in U.S.A<br />dry clean only<br /><br />style no&#46;&nbsp;007254</p></div>
+
+<div id="color"><div class="bl_1" title="yellow"></div><div class="bl_2" title="red"></div><div class="bl_3" title="blue"></div><p> COLORS</p></div>
+
+<div id="top">
+
+	<p>TOP<br />
+	<select name="top_size">
+		<option value="1" selected="selected"></option>
+		<option value="32A">32 A</option>
+		<option value="32B">32 B</option>
+		<option value="32C">32 C</option>
+		<option value="32D">32 D</option>
+		<option value="34A">34 A</option>
+		<option value="32B">34 B</option>
+		<option value="34C">34 C</option>
+		<option value="34D">34 D</option>
+		<option value="34DD">34 DD</option>
+		<option value="36A">36 A</option>
+		<option value="36B">36 B</option>
+		<option value="36C">36 C</option>
+		<option value="36D">36 D</option>
+		<option value="36DD">36 DD</option>	
+	</select>
+	</p>
+
+</div>
+
+<div id="bot">
+
+	<p>BOTTOM<br />
+	<select name="bot_size">
+		<option value="1" selected="selected"></option>
+		<option value="S">S</option>
+		<option value="M">M</option>
+		<option value="L">L</option>
+		<option value="XL">XL</option>
+	</select>
+	</p>
+		
+</div>
+
+<div id="nav"><p><a href="bl_2p_1.html">Previous</a>&nbsp;|&nbsp;<a href="purple_2p.html">Next</a></p></div>
+
+</body>
+
+</html>
