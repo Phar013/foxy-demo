@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Foxy's Boutique</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="CSS/images/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="CSS/index.css" />
+
+<script type="text/javascript">
+window.onload=montre;
+function montre(id) {
+var d = document.getElementById(id);
+	for (var i = 1; i<=10; i++) {
+		if (document.getElementById('smenu'+i)) {document.getElementById('smenu'+i).style.display='none';}
+	}
+if (d) {d.style.display='block';}
+}
+</script>
+</head>
+
+<body class="body">
+<div class="header">
+<div id="menu">
+<dl>
+	<dt onmouseover="montre('smenu1');"><a href="#">LINGERIE</a></dt>
+		<dd id="smenu1">
+		<ul>
+			<li><a href="babydoll.html" target="ifrm">BABYDOLLS</a></li>
+			<li><a href="catsuit.html" target="ifrm">BODYSUITS</a></li>
+			<li><a href="corset.html" target="ifrm">CORSETS</a></li>
+			<li><a href="sets.html" target="ifrm">SETS</a></li>
+			<li><a href="teddy.html" target="ifrm">TEDDYS</a></li>
+		</ul>
+		</dd>
+</dl>
+	
+<dl>			
+	<dt onmouseover="montre('smenu2');"><a href="#">SWIMWEAR</a></dt>
+		<dd id="smenu2">
+		<ul>
+			<li><a href="#" target="ifrm">ONE PIECE</a></li>
+			<li><a href="#" target="ifrm">STRINGS</a></li>
+			<li><a href="#" target="ifrm">TWO PIECE</a></li>
+		</ul>
+		</dd>
+</dl>
+	
+<dl>	
+	<dt onmouseover="montre('smenu3');"><a href="#">HOSIERY</a></dt>
+		<dd id="smenu3">
+		<ul>
+			<li><a href="garter.html" target="ifrm">GARTERS</a></li>
+			<li><a href="glove.html" target="ifrm">GLOVES</a></li>
+			<li><a href="leggings.html" target="ifrm">LEGGINGS</a></li>
+			<li><a href="sock.html" target="ifrm">SOCKS</a></li>
+			<li><a href="stockings.html" target="ifrm">STOCKINGS</a></li>
+		</ul>
+		</dd>
+</dl>
+	
+<dl>	
+	<dt onmouseover="montre('smenu4');"><a href="#">ACCESSORIES</a></dt>
+		<dd id="smenu4">
+		<ul>
+			<li><a href="#" target="ifrm">COSMETICS</a></li>
+			<li><a href="#" target="ifrm">JEWELRY</a></li>
+			<li><a href="#" target="ifrm">HAIR &amp; BODY</a></li>
+		</ul>
+		</dd>
+</dl>
+</div>
+<a href="" target="_new"><img id="pp" src="CSS/images/pp.jpg" height="22" width="70" /></a>
+</div>
+
+<a href="" target="_new"><img id="fb" src="CSS/images/fb_eng.jpg" height="21" width="23" /></a>
+<a href="" target="_new"><img id="li" src="CSS/images/li_eng.jpg" height="21" width="23" /></a>
+<a href="" target="_new"><img id="tw" src="CSS/images/tw_eng.jpg" height="21" width="23" /></a>
+<div class="sb-container">
+		<div id="sb-search" class="sb-search">
+			<form>
+			<input class="sb-search-input" placeholder="Something Special ?" type="text" value="" name="search" id="search">
+			<input class="sb-search-submit" type="submit" value=""><span class="sb-icon-search"></span>
+			</form>
+		</div>
+</div><!-- /container -->
+<script src="css/classie.js"></script>
+<script src="css/uisearch.js"></script>
+<script>
+		new UISearch( document.getElementById( 'sb-search' ) );
+</script>
+<a href="" target="_new" title="Join Our Mailing List"><img id="mailer" src="CSS/images/mail.png" height="22" width="33" /></a>
+<div id="tele"><p>800.648.6017</p></div>
+
+<div id="frame"><iframe name="ifrm"  id="ifrm" src="ads.html" height="400px" width="950px" frameborder="0" marginheight="20" marginwidth="20" scrolling="auto"><p>Your browser doesn't support iFrames.</p></iframe></div>
+
+<div id="reg"><div class="legal"><p>Foxy's Boutique &copy; 2016. All Rights Reserved.</p></div></div>
+<div id="link_1"><div class="legal"><a href="" target="ifrm">COMPANY</a></div></div>
+<div id="link_2"><div class="legal"><a href="" target="ifrm">MODELING</a></div></div>
+<div id="link_3"><div class="legal"><a href="" target="ifrm">AFFILIATES</a></div></div>
+<div id="gd"><div class="legal"><a href="">7PM Group</a></div></div>
+
+</body>
+
+</html>
