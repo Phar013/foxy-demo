@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Gloves | Foxy's Boutique</title>
+
+<link rel="stylesheet" type="text/css" href="CSS/specs.css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="featuredimagezoomer.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+
+	$('#image1').addimagezoom({
+		zoomrange: [3, 10],
+		magnifiersize: [300,300],
+		magnifierpos: 'left',
+		cursorshade: true,
+		largeimage: 'CSS/images/hosiery/gloves/net_arm_wm.jpg' //<-- No comma after last option!
+	})
+	
+	$('#image2').addimagezoom({
+		zoomrange: [5, 5],
+		magnifiersize: [400,400],
+		magnifierpos: 'left',
+		cursorshade: true,
+		cursorshadecolor: 'pink',
+		cursorshadeopacity: 0.3,
+		cursorshadeborder: '1px solid red',
+		largeimage: '#' //<-- No comma after last option!
+	})
+
+	$('#image3').addimagezoom()
+
+})
+</script>
+
+</head>
+
+<body class="body">
+
+<div id="b_link"><p><a href="glove.html">BACK TO GLOVES</a></p></div>
+
+<div id="spacer"><div id="img_container">
+<img id="image1" border="1px solid gray" src="CSS/images/hosiery/gloves/net_arm_wm.jpg" style="width:230px; height:390px;" />
+</div></div>
+
+<div class="title"><h2>FISHNET ARM WARMERS</h2></div>
+
+<div id="hr"></div>
+
+<div class="price"><p><font color="#000">MSRP&#58;</font>&nbsp;&#36;4&#46;95</p></div>
+
+<div class="det"><p><font color="#000">DETAILS&#58;</font></p></div>
+<div class="info"><p>Net Glove<br />Middle Finger Loop<br />85&#37; Nylon<br />15&#37; Spandex<br />Hand Wash Only</p></div>
+
+<div class="wid"><p><font color="#000">WEB&nbsp;ID&#58;</font>&nbsp;007444</p></div>
+
+<div id="color"><div class="bl_1" title="BLACK"></div><div class="bl_2" title="RED"></div><p><font color="#000">COLOR</font></p></div>
+
+<div id="size">
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_cart">
+<input type="hidden" name="business" value="SIG13@netzero.net">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="FISHNET ARM WARMERS">
+<input type="hidden" name="item_number" value="007254">
+<input type="hidden" name="amount" value="4.95">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="button_subtype" value="products">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="add" value="1">
+<input type="hidden" name="bn" value="PP-ShopCartBF:bag_reg.jpg:NonHostedGuest">
+
+<div id="c_select">
+	<input type="hidden" name="on0" value="COLOR"><select name="os0">
+	<option value="" selected="selected"></option>
+    <option value="BLACK">BLACK </option>
+    <option value="RED">RED </option></select>
+</div>
+
+<div id="none">
+	<input type="hidden" name="on1" value="SIZE"><p><font color="#000">SIZE</font></p><select name="os1">
+	<option value="" selected="selected"></option>
+	<option value="NONE">NO SIZE </option></select>
+</div>
+
+<div id="note"><p>&#42;ONE SIZE FITS MOST<br />UPDATE QUANTITY &#64; CHECKOUT</p></div>
+
+<div id="submit">
+<input type="image" src="CSS/images/bag_reg.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"></div></form>
+</div>
+
+<div id="nav"><p><a href="bl_vel_gl.html">PREV</a>&nbsp;&nbsp;<a href="#"></a></p></div>
+
+</body>
+
+</html>
