@@ -1,0 +1,374 @@
+/* Wrapper Menu */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+	
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon/icomoon.eot');
+	src:url('fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon/icomoon.woff') format('woff'),
+		url('fonts/icomoon/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}	
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* clearfix hack */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+html {
+	border-collapse: collapse;
+	background-color: #333333; 
+	position: relative;
+	padding: 0;
+	}
+
+a img {
+	outline: none;
+	}
+
+body {
+	border-collapse: collapse;
+	max-width: 1020px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+	}
+
+.header {
+	border: 1px solid gray;
+	background-image: url(images/foxy_rebrand.png);
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	font-family: "Verdana, Geneva, Arial, Helvetica", sans-serif;
+	font-weight: 700px;
+	margin-left: 20px;
+	width: 950px;
+	height: 140px;
+	}
+
+#menu {  /* Horizontal Menu */
+	position: relative;
+	margin-left: 13%;
+	margin-top: 35px;
+	padding: 0;
+	font-size: 11px;
+	}
+
+dt, dl, dd, ul, li {
+	list-style-type: none;
+	margin: 0 10px 0 0;
+	padding: 0;
+	}
+
+#mailer {
+	position: absolute;
+	margin-left: 792px;
+	margin-top: 1px;
+	outline: none;
+	z-index: 10;
+	}
+
+#menu {
+	position: absolute;
+	left: 530px;
+	top: 107px;
+	}
+
+#menu dl {
+	float: left;
+	}
+
+#menu li {
+	display: inline;
+	}
+
+#menu a {
+	text-decoration: none;
+	color: #000;
+	background:none;
+	}
+
+#menu a:hover {
+	color: red;
+	}
+
+#menu a active {
+	color: red;
+	}
+
+#smenu1, #smenu2, #smenu3, #smenu4 {
+	position: absolute;
+	left: 0;
+	font-size: 0.8em;
+	border-top: 0px solid gray;
+	width: 300px;
+	}
+
+.mentions {
+	position: absolute;
+	bottom : 300px;
+	left : 10px;
+	color: #000;
+	background-color: #ddd;
+	}
+
+a {
+	text-decoration: none;
+	color: #222;
+	}
+
+td {
+	font-family: "Arial, Helvetica", sans-serif;
+	}
+
+th {
+	font-family: "Arial, Helvetica", sans-serif;
+	}
+
+#fb {
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 2px;
+	outline: none;
+	z-index:10;
+	}
+
+#tw {
+	position: absolute;
+	margin-left: 58px;
+	margin-top: 2px;
+	outline: none;
+	z-index:10;
+	}
+
+#pp {
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 112px;
+	outline: none;
+	z-index:11;
+	}
+
+#li {
+	position: absolute;
+	margin-left: 86px;
+	margin-top: 2px;
+	outline: none;
+	z-index:10;
+	}
+
+#frame {
+	border: 1px solid gray;
+	height:400px;
+	width: 950px;
+	margin-left: 20px;
+	margin-top: 25px;
+	}
+
+#gd {
+	position: absolute;
+	border-collapse: collapse;
+	color: #999999;
+	margin-left: 918px;
+	margin-top: 4px;
+	width: 55px;
+	z-index:10;
+	}
+
+#link_1 {
+	position: absolute;
+	border-collapse: collapse;
+	color: #999999;
+	margin-left: 360px;
+	margin-top: 4px;
+	width:55px;
+	z-index: 10;
+	}
+
+#link_2 {
+	position: absolute;
+	border-collapse: collapse;
+	color: #999999;
+	margin-left: 540px;
+	margin-top: 4px;
+	width:58px;
+	z-index: 10;
+	}
+
+#link_3 {
+	position: absolute;
+	border-collapse: collapse;
+	color: #999999;
+	margin-left: 740px;
+	margin-top: 4px;
+	width:62px;
+	z-index: 10;
+	}
+
+#tele {
+	position: absolute;
+	background-image: url(images/tele.png);
+	background-repeat: no-repeat;
+	margin-top: 2px;
+	margin-left: 828px;
+	z-index: 10;
+	}
+
+#tele p {
+	display: inline;
+	margin-left: 26px;
+	font-family: "Verdana, Arial, Helvetica", sans-serif;
+	font-weight: 600;
+	color: #514E47;
+	font-size: 18px;
+	}
+
+#reg {
+	position: absolute;
+	border-collapse: collapse;
+	color: #999999;
+	margin-left: 20px;
+	margin-top: -6px;
+	width:215px;
+	z-index: 10;
+	}
+
+.sb-container { /* Search Bar Container */
+	position: absolute;
+	width: 15%;
+	padding: 0;
+	min-height: 20px;
+	z-index: 11;
+	left: 728px;
+	}
+	
+.sb-search {
+	position: relative;
+	margin-top: 3px;
+	width: 0%;
+	min-width: 22px;
+	height: 19px;
+	float: right;
+	overflow: hidden;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+	-webkit-backface-visibility: hidden;
+	}
+
+.sb-search-input {
+	position: relative;
+	top: 0;
+	right: 0;
+	border: none;
+	outline: none;
+	background: #fff;
+	width: 100%;
+	height: 19px;
+	margin: 0;
+	z-index: 10;
+	padding: 10px 45px 10px 10px;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 600;
+	color: #666;
+	}
+
+.sb-search-input::-webkit-input-placeholder {
+	color: #666;
+	}
+
+.sb-search-input:-moz-placeholder {
+	color: #666;
+	}
+
+.sb-search-input::-moz-placeholder {
+	color: #666;
+	}
+
+.sb-search-input:-ms-input-placeholder {
+	color: #666;
+	}
+
+.sb-icon-search,
+.sb-search-submit  {
+	width: 22px;
+	height: 19px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+	}
+
+.sb-search-submit {
+	background: #fff; /* IE needs this */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+	}
+
+.sb-icon-search {
+	color: #333;
+	background: #514E47;
+	z-index: 90;
+	font-size: 14px;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	}
+
+.sb-icon-search:before {
+	content: "\e000";
+	}
+
+/* Open state */
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	width: 100%;
+	}
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+	background: #514E47;
+	color: #333;
+	z-index: 11;
+	}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+	}	
+
+.legal {
+	position: relative;
+	font-family: "Verdana, Arial, Helvetica", sans-serif;
+	font-size: 10px;
+	z-index: 10;
+	}
+
+.legal a {
+	color: #999;
+	text-decoration: none;
+	}
+
+.legal a:hover {
+	color: #CCC;
+	}
